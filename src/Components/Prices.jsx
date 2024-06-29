@@ -1,6 +1,9 @@
 import React from "react";
 import { priceList } from "../utils/priceList";
 import { FaCheck, FaXmark } from "react-icons/fa6";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 
 function Prices() {
   return (

@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 
 function Navbar() {
 
@@ -13,8 +16,8 @@ function Navbar() {
       
       {/* Name */}
       <div className='flex space-x-2 items-center z-[2]'>
-      <img src='../assets/HomeHarvester.png' className='rounded-2xl size-8 shadow-lg' />
-        <div className='font-semibold text-green-800 md:text-2xl  '>
+      <img src='../assets/HomeHarvester.png' className='shadow-lg rounded-2xl size-8' />
+        <div className='font-semibold text-green-800 md:text-2xl '>
           <StyledText>HomeHarvest</StyledText>
         </div>
       </div>
